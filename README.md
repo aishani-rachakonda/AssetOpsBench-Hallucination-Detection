@@ -138,7 +138,6 @@ genai-using-llms-final-project/
 │       ├── charts/                          # Per-model precision vs. accuracy/latency charts
 │       └── analysis/                        # Per-model quantization analysis
 ├── papers/
-│   ├── NeurIPS2026_Submission.pdf
 │   ├── Performance_Optimization_Paper.pdf
 │   └── Related_Works_Collection.xlsx
 ├── submissions/
