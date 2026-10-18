@@ -10,7 +10,7 @@ Live demo of the Trajel hallucination judge. Runs on Google Colab — no local s
 
 Download `demo.ipynb` from this folder and upload it to [colab.research.google.com](https://colab.research.google.com), or open it directly:
 
-**colab.research.google.com/github/aishani-rachakonda/genai-using-llms-final-project/blob/main/hallucination_detection/demo.ipynb**
+**colab.research.google.com/github/aishani-rachakonda/AssetOpsBench-Hallucination-Detection/blob/main/hallucination_detection/demo.ipynb**
 
 ### 2. Upload `llm_judge_prompt.py`
 

@@ -64,8 +64,8 @@ Exploratory analysis of the Trajel dataset: type distributions, per-model halluc
 ### Set up environment
 
 ```bash
-git clone https://github.com/aishani-rachakonda/genai-using-llms-final-project.git
-cd genai-using-llms-final-project
+git clone https://github.com/aishani-rachakonda/AssetOpsBench-Hallucination-Detection.git
+cd AssetOpsBench-Hallucination-Detection
 
 python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
@@ -114,7 +114,7 @@ python3 -m pytest tests/ -v
 ## Repository Structure
 
 ```
-genai-using-llms-final-project/
+AssetOpsBench-Hallucination-Detection/
 ├── data/
 │   └── trajel_dataset.csv                  # 225-row annotated trajectory dataset
 ├── hallucination_detection/
@@ -129,14 +129,6 @@ genai-using-llms-final-project/
 │       ├── workflow/                        # Plan-Execute orchestrator
 │       ├── llm/                             # LiteLLM backend
 │       └── servers/                         # IoT, FMSR, TSFM, Utilities MCP servers
-├── performance_optimization/
-│   ├── caching/                             # Placeholder resolver optimization
-│   ├── parallelization/
-│   │   └── fmsr_server.py                  # Async N×M FMSR parallelization
-│   └── quantization/
-│       ├── code/                            # Benchmarking scripts
-│       ├── charts/                          # Per-model precision vs. accuracy/latency charts
-│       └── analysis/                        # Per-model quantization analysis
 ├── papers/
 │   └── Related_Works_Collection.xlsx
 ├── submissions/
