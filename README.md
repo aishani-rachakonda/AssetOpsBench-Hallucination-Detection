@@ -137,7 +137,8 @@ AssetOpsBench-Hallucination-Detection/
 │   └── demo_recording.mov                  # Live demo recording
 ├── tests/
 │   └── test_llm_judge.py                   # Unit and integration tests (14 tests)
-└── requirements.txt                        # Python dependencies
+├── requirements.txt                        # Python dependencies
+└── LICENSE                                 # MIT
 ```
 
 ---
@@ -183,3 +184,11 @@ Section 007 (Wednesday) — Columbia University, Spring 2026
 **Instructor:** Parijat Dube (Adjunct Professor, Columbia University)
 
 **Project PI:** Dhaval C. Patel (IBM Research)
+
+---
+
+## License
+
+[MIT](LICENSE), except [`assetopsbench/`](assetopsbench/), which is
+[IBM's AssetOpsBench](https://github.com/IBM/AssetOpsBench) code under the
+[Apache License 2.0](assetopsbench/LICENSE).
